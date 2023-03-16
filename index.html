@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Hell!</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.png" alt="neeraj" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="neeraj">neeraj</h1>
+
+          <p class="title">Security Researcher</p>
+		  
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:knight0x07@tutanota.com" class="contact-link">knight0x07@tutanota.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Alias</p>
+
+              <a href="https://twitter.com/knight0x07" class="contact-link">knight0x07</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/niraj-s" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+		  
+          <li class="social-item">
+            <a href="https://github.com/knight0x07" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/knight0x07" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Tools</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blogs</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Who Am I</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+				I'm a Malware-Loving Homo Sapien who practises the dark art of malware development and reverse engineering.
+				I also track threat actors, hunt malwares and write code for fun and profit.
+          </p>
+		  <p>
+				Basically I do everything related to malwares! 
+          </p>
+		  
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">What I'm Doing</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ava-1.png" alt="Mal" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Malware Reversing & Development</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Dissect and reverse engineer malware's and develop malware's for Adversary Simulation Operations.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ava-2.png" alt="CTI" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Threat Intelligence & Hunting</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Gather Threat Intelligence and perform hunting to find unknown In-the-wild threats.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ava-3.png" alt="Tool Development" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Tool Development</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Develop tools that will assist reverse engineers, malware researchers and red teamers.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/ava-1.png" alt="Mal" width="80" data-modal-img>
+              </figure>
+
+              <!--<img src="./assets/images/icon-quote.svg" alt="quote icon"> -->
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Malware Reversing & Development</h4>
+
+             <!--<time datetime="2021-06-14">14 June, 2022</time> -->
+
+              <div data-modal-text>
+                <p>
+					Dissect and reverse engineer malware's and develop malware's for Adversary Simulation Operations.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          
+        -->
+		<!--
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+				-->
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO #TOOLS
+      -->
+
+      <article class="tools" data-page="tools">
+
+        <header>
+          <h2 class="h2 article-title">Tools</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list">
+
+            <li class="project-item  active">
+              <a href="https://github.com/knight0x07/OneNoteAnalyzer" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/t-1.jpg" alt="OneNoteAnalyzer" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OneNoteAnalyzer</h3>
+
+                <p class="project-category">Malware Analysis</p>
+
+              </a>
+            </li>
+			
+			<li class="project-item  active">
+              <a href="https://github.com/knight0x07/BumbleCrypt" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/t-3.jpg" alt="BumbleCrypt" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BumbleCrypt</h3>
+
+                <p class="project-category">Malware Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="https://github.com/knight0x07/pyc2bytecode" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/t-2.jpg" alt="pyc2bytecode" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">pyc2bytecode</h3>
+
+                <p class="project-category">Malware Analysis</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active">
+              <a href="https://github.com/knight0x07/Lnk2Vbs" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/t-4.jpg" alt="Lnk2Vbs" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lnk2Vbs</h3>
+
+                <p class="project-category">Offensive Security</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="https://github.com/knight0x07/ImpulsiveDLLHijack"  target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/t-5.jpg" alt="ImpulsiveDLLHijack" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ImpulsiveDLLHijack</h3>
+
+                <p class="project-category">Offsensive Security</p>
+
+              </a>
+            </li>
+			
+			
+			
+			
+		<!--
+        Add tools above
+		-->
+			
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blogs" data-page="blogs">
+
+        <header>
+          <h2 class="h2 article-title">Blogs</h2>
+        </header>
+
+        <section class="blog-posts">
+		
+		    <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Personal</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Corporate</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Collaborations</button>
+            </li>
+
+          </ul>
+		  
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+			  <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Personal</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Corporate</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Collaborations</button>
+              </li>
+
+            </ul>
+
+          </div>
+		  		 
+
+          <ul class="blog-posts-list">
+
+			<li class="project-item  active" data-filter-item data-category="corporate">
+              <a href="https://www.zscaler.com/blogs/security-research/warhawk-new-backdoor-arsenal-sidewinder-apt-group-0"    target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/b-5.jpg" alt="warhawk" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Corporate</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-10-21">Oct 21, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">WarHawk: the New Backdoor in the Arsenal of the SideWinder APT Group</h3>
+
+                  <p class="blog-text">
+                    Discovered a new malware being used by the SideWinder APT in campaigns targeting Pakistan: a backdoor we’ve called “WarHawk.”
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+			
+		    <li class="project-item  active" data-filter-item data-category="corporate">
+              <a href="https://www.zscaler.com/blogs/security-research/havoc-across-cyberspace"    target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/b-6.jpg" alt="havoc" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Corporate</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-14">Feb 14, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Havoc Across the Cyberspace</h3>
+
+                  <p class="blog-text">
+                    New campaign targeting a Government organization where the threat actors leveraged a new Command & Control (C2) framework named Havoc
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+			
+			
+			
+			<li class="project-item  active" data-filter-item data-category="corporate">
+              <a href="https://www.zscaler.com/blogs/security-research/snip3-crypter-reveals-new-ttps-over-time"    target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/b-7.jpg" alt="snip3" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Corporate</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-24">Feb 24, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Snip3 Crypter Reveals New TTPs Over Time</h3>
+
+                  <p class="blog-text">
+                    Observed multiple threat campaigns utilizing the Snip3 crypter, a multi-stage remote access trojan (RAT) loader with new TTPs
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+			
+			
+			<li class="project-item  active" data-filter-item data-category="corporate">
+              <a href="https://www.zscaler.com/blogs/security-research/lyceum-net-dns-backdoor"    target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/b-2.jpg" alt="Lyceum" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Corporate</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-06-09">Jun 09, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Lyceum .NET DNS Backdoor</h3>
+
+                  <p class="blog-text">
+                    Discovered a .NET DNS Backdoor utilized by the Lyceum Threat Group in campaigns targeting the Middle East
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+			
+			
+			<li class="project-item  active" data-filter-item data-category="corporate">
+              <a href="https://www.zscaler.com/blogs/security-research/grandoreiro-banking-trojan-new-ttps-targeting-various-industry-verticals"     target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/b-3.jpg" alt="Grandoreiro" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Corporate</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-08-18">Aug 18, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Grandoreiro Banking Trojan with New TTPs Targeting Various Industry Verticals</h3>
+
+                  <p class="blog-text">
+                    Observed a Grandoreiro campaign targeting organizations in the Spanish-speaking nations of Mexico and Spain
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+			
+			
+			
+			<li class="project-item  active" data-filter-item data-category="collaborations">
+              <a href="https://rixed.blog/papers.html"    target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/b-8.jpg" alt="Exfiltrator" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Collaborations</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-13">Mar 13, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Dissecting Exfiltrator-22</h3>
+
+                  <p class="blog-text">
+                    Analysis delves deep into all available functionalities of the Ex-22 agent and includes OSINT on the developer & upcoming features of Ex-22
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+			
+			
+					
+			<li class="project-item  active" data-filter-item data-category="corporate">
+              <a href="https://www.zscaler.com/blogs/security-research/agent-tesla-rat-delivered-quantum-builder-new-ttps"    target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/b-4.jpg" alt="quantum" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Corporate</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-09-27">Sept 27, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Agent Tesla RAT Delivered by Quantum Builder With New TTPs</h3>
+
+                  <p class="blog-text">
+                    Observed a campaign that delivers Agent Tesla using a builder named “Quantum Lnk Builder” sold on the dark web
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+			
+			
+			
+            <li class="project-item   active" data-filter-item data-category="corporate">
+              <a href="https://www.zscaler.com/blogs/security-research/ffdroider-stealer-targeting-social-media-platform-users"   target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/b-1.jpg" alt="FFDroider" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Corporate</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-04-06">Apr 06, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">FFDroider Stealer Targeting Social Media Platform Users</h3>
+
+                  <p class="blog-text">
+                    Discovered FFDroider Stealer
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+			  <!--
+				Add Blogs here
+			  -->
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
